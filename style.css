@@ -1,0 +1,49 @@
+body{
+    background-image: url(imagenes/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#ingresa-mensaje{
+    margin-top: 100px;
+    border: 1px solid;
+    border-radius: 3px;
+    height: 180px;
+    width: 400px;
+}
+#encripta-mensaje{
+    margin-top: 100px;
+    border: 1px solid;
+    border-radius: 3px;
+    height: 180px;
+    width: 400px;
+}
+#mensaje{
+    width: 300px;
+    height: 30px;
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+#encriptado{
+    width: 300px;
+    height: 30px;
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+button{
+    display: block;
+    width: 100px;
+    background-color: rgb(240, 204, 86);
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 40px;
+
+}
+
+button:active{
+    background-color: brown;
+}
